@@ -7,7 +7,8 @@ body {
     margin: auto;
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-content: center;
     background-color: #ebe9df;
     max-width: 800px;
@@ -19,7 +20,7 @@ body {
 }
 
 .title__1 {
-    padding-top: 30px;
+    padding-top: 40px;
     font-family: "quicksand", serif;
     font-style: normal;
     font-weight: 300;
@@ -46,10 +47,31 @@ body {
 }
 
 .info {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     font-family: "quicksand", serif; 
     font-size: 18px; 
- 
     color: #573f4d;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottom__info-left {
+    margin-left: 20px;
+    margin-bottom: 20px; 
+    font-family: "quicksand", serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.bottom__info-right {
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    font-family: "quicksand", serif;
+    font-size: 14px;
+    text-align: right;
 }
