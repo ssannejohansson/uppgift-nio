@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    background-color: #E5C3C3;
+}
+
+.content__background {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #986C6D;
+    max-width: 800px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+}
+
+.title {
+    padding: 20px;
+    font-family: "dancing script", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
