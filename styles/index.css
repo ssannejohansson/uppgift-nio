@@ -3,7 +3,7 @@ body {
     background-color: #d6cfd6;
 }
 
-.content__background {
+.content__container {
     margin: auto;
     margin-top: 40px;
     display: flex;
@@ -17,6 +17,16 @@ body {
     height: 100%;
     box-shadow: inset 0 0 0 1px #33333360;
     border: 20px solid #ebe9df;
+}
+
+@keyframes contentZoom {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+.content__container:hover {
+    animation: contentZoom 4s ease; 
 }
 
 .title__1 {
@@ -47,7 +57,7 @@ body {
 }
 
 .info {
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
     font-family: "quicksand", serif; 
     font-size: 18px; 
